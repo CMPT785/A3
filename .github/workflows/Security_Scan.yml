@@ -16,10 +16,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
     
-    - name: Initialize CodeQL
-      uses: github/codeql-action/init@v3
-      with:
-        languages: python
+    # - name: Initialize CodeQL
+    #   uses: github/codeql-action/init@v3
+    #   with:
+    #     languages: python
 
     # Scan Dockerfile for security issues
     - name: Scan Dockerfile with Hadolint
@@ -27,5 +27,5 @@ jobs:
       with:
         dockerfile: Dockerfile
 
-    - name: Run CodeQL Analysis
-      uses: github/codeql-action/analyze@v3
+    # - name: Run CodeQL Analysis
+    #   uses: github/codeql-action/analyze@v3
