@@ -29,4 +29,7 @@ CMD ["/bin/bash"]
 # COPY requirements.txt requirements.txt
 # RUN pip install -r requirements.txt
 
+# DUMMY SECRET FOR TESTING PURPOSES
+# AWS_SECRET_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE"
+
 # CMD ["/bin/bash"]
