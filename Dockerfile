@@ -25,8 +25,6 @@ CMD ["/bin/bash"]
 # COPY token token
 # RUN git clone https://pat:$(cat token)@gitlab.com/sl0wc0der/top_secret_repo.git
 # RUN rm token
-
 # COPY requirements.txt requirements.txt
 # RUN pip install -r requirements.txt
-
 # CMD ["/bin/bash"]
