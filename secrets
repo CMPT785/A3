@@ -1,2 +1,0 @@
-secret=mypassword123
-AWS_SECRET_ACCESS_KEY=1234567
